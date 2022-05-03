@@ -35,7 +35,6 @@ release = '0.1'
 sys.path.append(os.path.abspath("../exts"))
 extensions = [
     'codeplay',
-    'glossary',
     'myst_parser',
     'questions',
     'sphinx_panels',
@@ -45,8 +44,6 @@ extensions = [
     'timeline',
     'exercise',
 ]
-
-glossary_doc = 'glossaire'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../templates']
